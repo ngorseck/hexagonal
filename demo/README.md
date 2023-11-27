@@ -39,7 +39,13 @@ Puis
 
 ![img.png](img.png)
 
-En fin cliquer sur apply
+En fin cliquer sur apply 
+
+Démarrer le projet
+
+![img_1.png](img_1.png)
+
+
 
 ## Usage
 
@@ -48,3 +54,4 @@ Et pour lancer le projet avec le port 8080 puis visualisation des endpoints puis
 ```bash
 http://localhost:8080/swagger-ui/index.html
 ```
+![img_3.png](img_3.png)
