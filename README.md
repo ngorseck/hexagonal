@@ -18,7 +18,7 @@ Et pour les connexions au port, nous avons deux autres modules à savoir api-ada
 
 ## Installation
 
-Juste cloner le projet puis faite un, toutes les configurations de base dont déjà faite (openapi, h2)
+Juste cloner le projet puis faite un clean install, toutes les configurations de base dont déjà faite (openapi, h2)
 
 ```bash
 git clone https://github.com/ngorseck/hexagonal.git
