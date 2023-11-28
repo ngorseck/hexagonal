@@ -10,7 +10,7 @@ Ce projet vous montre comment mettre en place une architecure hexagonal avec un 
 
 ## Configuration du projet
 
-J'ai d'abord créé un projet spring boot de base. Puis j'ai ajouté quatre modules:
+J'ai d'abord créé un projet spring boot de base. Puis j'ai ajouté cinq modules:
 
 >***commun*** pour les DTO
 
@@ -18,6 +18,7 @@ J'ai d'abord créé un projet spring boot de base. Puis j'ai ajouté quatre modu
 
 >Et pour les connexions au port, nous avons deux autres modules à savoir ***api-adapter*** pour les controllers et ***repository-adapter*** pour la base de données.
 
+>***start*** pour l'éxécution du projet
 
 ## Installation
 
