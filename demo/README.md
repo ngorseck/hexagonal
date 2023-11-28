@@ -16,7 +16,7 @@ J'ai d'abord créé un projet spring boot de base. Puis j'ai ajouté cinq module
 
 >***domaine*** qui définie les mappers entre domaine et DTO, les modeles du domaine, les ports (en entréé pour le web et en sortie vers la base de données) plus les services.
 
->Et pour les connexions au port, nous avons deux autres modules à savoir ***api-adapter*** pour les controllers et ***repository-adapter*** pour la base de données.
+>Et pour les connexions aux ports, nous avons deux autres modules à savoir ***api-adapter*** pour les controllers et ***repository-adapter*** pour la base de données.
 
 >***start*** pour l'éxécution du projet
 
