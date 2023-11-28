@@ -4,7 +4,7 @@
 ![Jetty](https://img.shields.io/badge/Ngor%20Seck-TomcatWebServer-blue)
 # Documentation
 
-Ce projet vous montre comment mettre en place une architecure hexagonal avec un projet spring boot piloter par maven.
+Ce projet vous montre comment mettre en place une architecure hexagonale avec un projet spring boot piloter par maven.
 
 ![hexagonel.png](hexagonel.png)
 
@@ -16,13 +16,13 @@ J'ai d'abord créé un projet spring boot de base. Puis j'ai ajouté cinq module
 
 >***domaine*** qui définie les mappers entre domaine et DTO, les modeles du domaine, les ports (en entréé pour le web et en sortie vers la base de données) plus les services.
 
->Et pour les connexions aux ports, nous avons deux autres modules à savoir ***api-adapter*** pour les controllers et ***repository-adapter*** pour la base de données.
+>Et pour les connexions aux ports, nous avons deux autres modules à savoir ***api-adapter*** pour les controllers (le web) et ***repository-adapter*** pour la base de données.
 
 >***start*** pour l'éxécution du projet
 
 ## Installation
 
-Juste cloner le projet puis faite un clean install, toutes les configurations de base dont déjà faite (openapi, h2)
+Juste clonez le projet puis faites un ***clean install***, toutes les configurations de base sont déjà faites (openapi, h2)
 
 ```bash
 git clone https://github.com/ngorseck/hexagonal.git
