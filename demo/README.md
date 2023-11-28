@@ -1,7 +1,7 @@
 ![work status](https://img.shields.io/badge/work-on%20progress-red.svg) 
 ![Ngor Seck](https://img.shields.io/badge/Ngor%20Seck-Java-green) 
-![Java](https://img.shields.io/badge/Ngor%20Seck-Struts-yellowgreen)
-![Jetty](https://img.shields.io/badge/Ngor%20Seck-JettyWebServer-blue)
+![Java](https://img.shields.io/badge/Ngor%20Seck-Spring-yellowgreen)
+![Jetty](https://img.shields.io/badge/Ngor%20Seck-TomcatWebServer-blue)
 # Documentation
 
 Ce projet vous montre comment mettre en place une architecure hexagonal avec un projet spring boot piloter par maven.
