@@ -12,11 +12,11 @@ Ce projet vous montre comment mettre en place une architecure hexagonal avec un 
 
 J'ai d'abord créé un projet spring boot de base. Puis j'ai ajouté quatre modules:
 
->Commun pour les DTO
+>***commun*** pour les DTO
 
->domaine qui définie les mappers entre domaine et DTO, les modeles du domaine, les ports (en entréé pour le web et en sortie vers la base de données) plus les services.
+>***domaine*** qui définie les mappers entre domaine et DTO, les modeles du domaine, les ports (en entréé pour le web et en sortie vers la base de données) plus les services.
 
->Et pour les connexions au port, nous avons deux autres modules à savoir api-adapter pour les controllers et repository-adapter pour la base de données.
+>Et pour les connexions au port, nous avons deux autres modules à savoir ***api-adapter*** pour les controllers et ***repository-adapter*** pour la base de données.
 
 
 ## Installation
